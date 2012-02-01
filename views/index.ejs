@@ -1,0 +1,14 @@
+<html>
+<head>
+
+</head>
+<body>
+<p><%= tweet %></p>
+<% if (count >= 0) { %>
+	<a href="/tweet">Dat What She Say!</a>
+	<a href="/skip">Meh...</a>
+	<a href="/bad">Bad</a><br/><br/>
+	<%= count %> tweets remaining. (<a href="/trim">trim to 100</a>)
+<% } %>
+</body>
+</html>
